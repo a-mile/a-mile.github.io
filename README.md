@@ -1,100 +1,35 @@
-# barebones-jekyll
+# Research Object Crate (RO-Crate)
 
-A barebones website template for students to fork while learning how to build a GitHub website. 
+This is the GitHub repository for contributing to the [Research Object Crate](https://researchobject.github.io/ro-crate/) specification.
 
+The [docs/](docs/) folder has the [MarkDown](https://guides.github.com/features/mastering-markdown) content that is rendered to <https://researchobject.github.io/ro-crate/> by [GitHub pages](https://pages.github.com/). Alias <http://researchobject.org/ro-crate/> (note, no https) redirects.
 
-## Will teach you how to use themes like these:
+Feel free to use other folders for non-web content, e.g. examples, JSON-LD contexts, test scripts.
 
-* [contrast](https://github.com/niklasbuschmann/contrast)
-* [polar bear theme] (https://github.com/diezcami/polar-bear-theme)
-* [lanyon](http://lanyon.getpoole.com/)
+## Contribute
 
-# your minimal site:
+This repository is coordinated by the [RO-Crate team](https://researchobject.github.io/ro-crate/#contribute).
 
-```
-site  
-├── index.md   
-├── config.yml  
-├── assets folder  
-│   └── images    
-│   └── CSS files  
-├── _layouts folder  
-│   └── default.html  
-│   └── page.html   
-└── _includes folder   
-    ├── head.html  
-    ├── header.html  
-    ├── navbar.html  
-    └── footer.html  
-``` 
-  
-## index.md
+To suggest changes, improvements or issues, use the GitHub repository
+<https://github.com/ResearchObject/ro-crate> - if you are new to GitHub or Open
+Source you may appreciate the [GitHub guides](https://guides.github.com/) like
+[Hello World](https://guides.github.com/activities/hello-world/),
+[MarkDown](https://guides.github.com/features/mastering-markdown/) and [How to
+contribute to open source](https://opensource.guide/how-to-contribute/)
 
-Landing page. 
+You are welcome to [join us](https://github.com/ResearchObject/ro-crate/issues/1)! 
 
+Contributors are expected to comply with our [Code of Conduct](CODE_OF_CONDUCT.md)
+to ensure an open and inclusive environment.
 
-## config file
+## License
 
-Basic example from [GitLab](https://gitlab.com/pages/jekyll/blob/master/_config.yml):
+* © 2019-2021 Research Object Crate contributors <https://github.com/ResearchObject/ro-crate/graphs/contributors>
+* © 2018-2020 University of Technology Sydney, Australia
+* © 2018-2021 The University of Manchester, UK
 
-````
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-#
-# If you need help with YAML syntax, here are some quick references for you: 
-# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
-# https://learnxinyminutes.com/docs/yaml/
-#
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
+The specification and documentation maintained in this repository is Open Source and licensed as [Apache License, version 2.0](LICENSE), see <https://www.apache.org/licenses/LICENSE-2.0> for details.
 
-title: Example Jekyll site using GitLab Pages
-email: your-email@domain.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "/jekyll" # the subpath of your site, e.g. /blog
-url: "/" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
-gitlab_username:  pages
+Any contributions received are assumed to be [covered by the Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0#contributions).
 
-# Build settings
-theme: minima
-plugins:
-  - jekyll-feed
-
-# Exclude from processing.
-# The following items will not be processed, by default.
-# Any item listed under the `exclude:` key here will be automatically added to
-# the internal "default list".
-#
-# Excluded items can be processed by explicitly listing the directories or
-# their entries' file path in the `include:` list.
-#
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
-
-````
-  
-Longer example: https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml
+The RO-Crate JSON-LD contexts `context.json` and JSON-LD examples within this specification are distributed under [CC0 1.0 Universal (CC0 1.0) Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/). 
