@@ -1,0 +1,23 @@
+subitems:
+- title: 
+  url: 'Home' 
+  url: /home'
+- title: 'Background' 
+  url: /background'
+- title: 'Use Cases' 
+  url: /use-cases'
+- title: 'Community'
+  subitems:
+  - title: 'Team' 
+    url: /community/team'
+  - title: 'Outreach' 
+    url: /community/outreach'
+  - title: 'Publications' 
+    url: /community/publications'
+  - title: 'Contact' 
+    url: /community/contact'
+- title: 'FAQ'
+  url: /faq'
+- title: 'Specification'
+  url: /specification'   
+    

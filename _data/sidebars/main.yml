@@ -1,0 +1,132 @@
+title: Main
+title_url: /index
+subitems:
+  - title: Pathogen characterisation
+    url: /pathogen-characterisation/
+    image_url: /assets/img/section-icons/disease-duotone.svg
+    subitems:
+      - title: Attributing credit
+        url: /pathogen-characterisation/attributing-credit
+      - title: Data analysis
+        url: /pathogen-characterisation/data-analysis
+      - title: Data communication
+        url: /pathogen-characterisation/data-communication
+      - title: Data description
+        url: /pathogen-characterisation/data-description
+      - title: Data sources
+        url: /pathogen-characterisation/data-sources
+      - title: Ethical Legal and Social Issues
+        url: /pathogen-characterisation/ethical-legal-and-social-issues
+      - title: Provenance
+        url: /pathogen-characterisation/provenance
+      - title: Quality control
+        url: /pathogen-characterisation/quality-control
+
+  - title: Socioeconomic data
+    image_url: /assets/img/section-icons/users-viewfinder-duotone.svg
+    url: /socioeconomic-data/
+    subitems:
+      - title: Attributing credit
+        url: /socioeconomic-data/attributing-credit
+      - title: Data analysis
+        url: /socioeconomic-data/data-analysis
+      - title: Data communication
+        url: /socioeconomic-data/data-communication
+      - title: Data description
+        url: /socioeconomic-data/data-description
+      - title: Data sources
+        url: /socioeconomic-data/data-sources
+      - title: Ethical Legal and Social Issues
+        url: /socioeconomic-data/ethical-legal-and-social-issues
+      - title: Provenance
+        url: /socioeconomic-data/provenance
+      - title: Quality control
+        url: /socioeconomic-data/quality-control
+
+  - title: Human biomolecular data
+    image_url: /assets/img/section-icons/dna-person-duotone.svg
+    url: /human-biomolecular-data/
+    subitems:
+      - title: Attributing credit
+        url: /human-biomolecular-data/attributing-credit
+      - title: Data analysis
+        url: /human-biomolecular-data/data-analysis
+      - title: Data communication
+        url: /human-biomolecular-data/data-communication
+      - title: Data description
+        url: /human-biomolecular-data/data-description
+      - title: Data sources
+        url: /human-biomolecular-data/data-sources
+      - title: Ethical Legal and Social Issues
+        url: /human-biomolecular-data/ethical-legal-and-social-issues
+      - title: Provenance
+        url: /human-biomolecular-data/provenance
+      - title: Quality control
+        url: /human-biomolecular-data/quality-control
+
+  - title: Human clinical and health data
+    image_url: /assets/img/section-icons/hospital-user-duotone.svg
+    url: /human-clinical-and-health-data/
+    subitems:
+      - title: Attributing credit
+        url: /human-clinical-and-health-data/attributing-credit
+      - title: Data analysis
+        url: /human-clinical-and-health-data/data-analysis
+      - title: Data communication
+        url: /human-clinical-and-health-data/data-communication
+      - title: Data description
+        url: /human-clinical-and-health-data/data-description
+      - title: Data sources
+        url: /human-clinical-and-health-data/data-sources
+      - title: Ethical Legal and Social Issues
+        url: /human-clinical-and-health-data/ethical-legal-and-social-issues
+      - title: Provenance
+        url: /human-clinical-and-health-data/provenance
+      - title: Quality control
+        url: /human-clinical-and-health-data/quality-control
+
+  - title: Showcase
+    hr: true
+    image_url: /assets/img/section-icons/network-wired-duotone.svg
+    url: /showcase/
+    description: Applied examples of handling infectious disease data
+    subitems:
+      - title: An automated SARS-CoV-2 genome surveillance system built around Galaxy
+        url:  /showcase/covid19-galaxy
+      - title: Linked Cohort Data
+        url: /showcase/linked-cohort-data
+      - title: SARS-CoV-2 sequencing in Estonia 2021-2022
+        url:  /showcase/korogenoest
+      - title: The Swedish Pathogens Portal
+        url:  /showcase/swedish-pathogens-portal
+      - title: Prototyping federated causal research questions reusing sensitive health data
+        url:  /showcase/prototyping-research-questions
+  
+  - title: National resources
+    image_url: /assets/img/section-icons/flag-duotone.svg
+    url: /national-resources/
+    description: Country specific examples
+    subitems:
+      - title: Belgium
+        url: /national-resources/belgium
+      - title: Estonia
+        url: /national-resources/estonia
+      - title: Netherlands
+        url: /national-resources/netherlands
+      - title: Norway
+        url: /national-resources/norway
+      - title: Sweden
+        url: /national-resources/sweden
+      - title: Switzerland
+        url: /national-resources/switzerland
+
+  - title: Tools and resources list
+    hr: true
+    image_url: /assets/img/section-icons/gears-duotone.svg
+    url: /tools-and-resources-list/
+    description: Browse all tools and resources mentioned in IDTk
+
+  - title: Training resources list
+    image_url: /assets/img/section-icons/graduation-cap-duotone.svg
+    url: /training-resources-list/
+    description: Browse all training resources mentioned in IDTk

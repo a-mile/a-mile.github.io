@@ -1,16 +1,58 @@
-logo: assets/img/ro-crate-wide.svg
-
 title: Research Object Crate (RO-Crate)
-description: |
-  RO-Crate is a community effort to establish a lightweight approach to
+topnav_title: RO-Crate
+description:  RO-Crate is a community effort to establish a lightweight approach to
   packaging research data with their metadata. It is based on schema.org
   annotations in JSON-LD, and aims to make best-practice in formal metadata
   description accessible and practical for use in a wider variety of situations,
   from an individual researcher working with a folder of data, to large
   data-intensive computational research environments.
+  
 remote_theme: ELIXIR-Belgium/elixir-toolkit-theme@2.4.0
+
 exclude:
-  - Gemfile
-  - Gemfile.lock
-  - LICENSE
   - README.md
+  - vendor
+  - Gemfile
+
+defaults:
+# Define here metadata attributes of pages for all of them at once of on specific directories. More information: https://jekyllrb.com/docs/configuration/front-matter-defaults/
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      permalink: /:basename
+      layout: "page"
+      sidebar: main
+
+theme_variables: 
+  # git_host: GitHub
+  # back_to_top: true
+  # privacy_statement_url: /privacy
+  # github_buttons: 
+  #   position: top
+  #   edit_me: true
+  #   open_issue: true
+  #   history: true
+  # toc:
+  #   min_headers: 2
+  #   headers: 'h2'
+  topnav:
+    theme: light
+    brand_logo: assets/img/ro-crate-wide.svg
+    github: true
+    twitter: false
+  theme_color: 39989F
+  fonts:
+    - https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap
+
+plugins:
+  - elixir-toolkit-theme-plugins
+  - jekyll-redirect-from
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-github-metadata
+  - jemoji
+  - webrick
+
+
