@@ -1,11 +1,55 @@
+@import "bootstrap/functions";
+
 /*-----Theme colors-----*/
-$primary:       #0d6efd;
-$secondary:     #6c757d;
-$light:         #f8f9fa;
-$dark:          #212529;
+$white: #fff;
+$primary: #39989F;
+$blue: #86B2B5;
+$blue-x: #c2e5e6ff;
+$red: #d63936;
+$light: #f5f5f5;
+$dark: #175a5f;
 
 /*-----Custom values for Bootstrap variables-----*/
-$link-decoration: none;
-$navbar-light-hover-color: $primary;
+// General
+$component-active-bg: $primary;
+$box-shadow: rgba(0, 0, 0, 0.19) 0px 3px 8px;
+$body-bg: $white;
+$border-radius: 0.5rem;
+$alert-border-width: 0;
+$btn-disabled-opacity: 1;
 
-// Find out which bootstrap variables you can use to fine tune the styling of your website here: https://github.com/ELIXIR-Belgium/elixir-toolkit-theme/blob/main/_sass/bootstrap/_variables.scss
+// Navbar
+$navbar-light-color: $dark;
+$navbar-light-toggler-border-color: transparent;
+$navbar-light-hover-color: $primary;
+$navbar-brand-font-size: 1.7rem;
+$nav-link-hover-color: $primary;
+
+// Cards
+$card-cap-bg: transparent;
+$card-border-width: 0;
+
+// Buttons and inputs
+$input-group-addon-bg: $blue-x;
+$input-bg: $light;
+$input-border-width: 0;
+$btn-padding-y: 0.25rem;
+$btn-border-radius-sm: $border-radius;
+
+// Links
+$link-color: $blue;
+$link-decoration: none;
+
+// Font changes
+$body-color: $dark;
+$font-size-base: 1.05rem;
+$font-family-sans-serif: "PT Sans", sans-serif;
+$h1-font-size: 4rem !default;
+$h2-font-size: 2rem !default;
+$h3-font-size: 1.5rem !default;
+$h4-font-size: 1.1rem !default;
+$h5-font-size: 1rem !default;
+$h6-font-size: 1rem !default;
+
+@import "bootstrap/variables";
+
