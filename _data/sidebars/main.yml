@@ -1,7 +1,7 @@
 subitems:
   - title: Use Cases
     hr: true
-    url: /use_cases/
+    url: /use_cases
 
   - title: Your Domain
     url: /domains
