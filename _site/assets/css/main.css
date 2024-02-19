@@ -12930,5 +12930,9 @@ section#search-section .input-group-text {
     position: sticky;
   }
 }
+/*-----Footer------*/
+#back-to-top.visible {
+  bottom: 7px;
+}
 
 /*# sourceMappingURL=main.css.map */
